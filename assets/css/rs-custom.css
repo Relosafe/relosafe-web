@@ -1,0 +1,67 @@
+.mobile-menu li a {
+    padding: 10px 20px;
+}
+.section-padding {
+    padding: 130px 0;
+}
+.about-img {
+    border-radius: 30px;
+}
+.btn-style-one {
+    border-radius: 17px;
+}
+.about .main-image .circle-thumb {
+    border-radius: 20%;
+}
+
+.bgd-secondary {
+    background-color: #f2f5fb;
+}
+
+.offcanvas .logo {
+    width: 60%;
+}
+
+@media (max-width: 575px) {
+    .about .main-image {
+        padding: 10px 0 0 0;
+        margin-bottom: 30px;
+    }
+
+    .shape-one,
+    .shape-two {
+        display: none;
+    }
+
+    .about-img {
+        height: 220px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .about .main-image .circle-thumb {
+        right: 21px;
+        top: 36px;
+    }
+
+    .section-padding {
+        padding: 40px 0;
+    }
+
+    .about.section-padding {
+        padding-top: 100px;
+    }
+
+    .section-head .title {
+        font-size: 30px;
+    }
+
+    .about .about-content .btn {
+        margin-top: 10px;
+    }
+
+    .single-service .icon {
+        width: 50px;
+    }
+
+}
