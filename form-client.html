@@ -47,8 +47,7 @@
                                 <div class="d-none d-lg-flex header-right_menu">
                                     <nav class="main-menu">
                                         <ul>
-                                            <li><a href="" target="_blank">YouTube</a></li>
-                                            <li><a href="" target="_blank">Telegram канал</a></li>
+                                            <li><a href="" target="_blank">Подбор программы</a></li>
                                             <li><a href="" target="_blank">Задать вопрос</a></li>
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Язык</a>
@@ -117,8 +116,7 @@
             <!-- mobile menu navigation start -->
             <nav>
                 <ul class="mobile-menu">
-                    <li><a href="" target="_blank">YouTube</a></li>
-                    <li><a href="" target="_blank">Telegram канал</a></li>
+                    <li><a href="form-client.html" target="_blank">Подбор программы</a></li>
                     <li><a href="" target="_blank">Задать вопрос</a></li>
                     <li style="margin-top: 10px;">
                         <a href="" class="btn btn-style-one"> <span>Консультация</span> </a>
@@ -128,24 +126,418 @@
             <!-- mobile menu navigation end -->
         </div>
     </div>
+
     <div class="about section-padding">
-        <div class="container align-items-left">
-            <div class="row">
+        <div class="container">
+            <div class="row align-items-center">
                 <div class="col-12">
-                    <h1>Данные для ВНЖ</h1>
-                    <p class="lead">Все данные заполняйте на латиннице как в загранпаспорте, по которому будете въезжать в страну.</p>
-                </div>
-                <div class="col col-sm-12 col-md-6 col-lg-4">
-                    <form>
-                        <h2>Личные данные</h2>
-                        <fieldset>
-                    
-                        </fieldset>
-                    </form>
+                    <div class="about-content about-content--form">
+                        <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                            <h1 class="title">Данные для ВНЖ</h1>
+                            <p class="text-two">Все данные заполняйте на латиннице как в загранпаспорте, по которому будете въезжать в страну.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+        <form class="form-section">
+            <div class="container">
+                <div class="row mt-5 align-items-left">
+                    <div class="col-12">
+                        <div class="about-content about-content--form">
+                            <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <h2 class="subtitle">Личные данные</h2>
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <fieldset class="col-sm-12 col-md-6 col-lg-6">
+                                <label for="formInput" class="form-label h6">Имя</label>
+                                <input type="text" class="form-control" placeholder="Ivan" aria-label="Имя" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите имя на латинице как в паспорте</div>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-6">
+                                <label for="formInput" class="form-label h6">Фамилия</label>
+                                <input type="text" class="form-control" placeholder="Ivanov" aria-label="Фамилия" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите фамилию на латинице как в паспорте</div>
+                            </fieldset>
+
+                            <fieldset class="row g-4">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                <legend class="form-label h6">Пол</legend>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                      Мужчина
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                      Женщина
+                                    </label>
+                                  </div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <label for="formInput" class="form-label h6">Дата рождения</label>
+                                    <input type="date" class="form-control" value="11-11-2011" placeholder="11.11.2011" aria-label="Дата" aria-describedby="textHelp">
+                                    <div id="textHelp" class="form-text">Месяц / День / Год</div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="nationality" class="form-label h6">Национальность</label>
+                                <select class="form-control" name="nationality">
+                                    <option selected>Выберете национальность</option>
+                                    <option value="AFGHAN">AFGHAN</option>
+                                    <option value="ALBANIAN">ALBANIAN</option>
+                                    <option value="ALGERIAN">ALGERIAN</option>
+                                    <option value="AMERICAN">AMERICAN</option>
+                                    <option value="ANDORRAN">ANDORRAN</option>
+                                    <option value="ANGOLAN">ANGOLAN</option>
+                                    <option value="ANTIGUANS">ANTIGUANS</option>
+                                    <option value="ARGENTINEAN">ARGENTINEAN</option>
+                                    <option value="ARMENIAN">ARMENIAN</option>
+                                    <option value="AUSTRALIAN">AUSTRALIAN</option>
+                                    <option value="AUSTRIAN">AUSTRIAN</option>
+                                    <option value="AZERBAIJANI">AZERBAIJANI</option>
+                                    <option value="BAHAMIAN">BAHAMIAN</option>
+                                    <option value="BAHRAINI">BAHRAINI</option>
+                                    <option value="BANGLADESHI">BANGLADESHI</option>
+                                    <option value="BARBADIAN">BARBADIAN</option>
+                                    <option value="BARBUDANS">BARBUDANS</option>
+                                    <option value="BATSWANA">BATSWANA</option>
+                                    <option value="BELARUSIAN">BELARUSIAN</option>
+                                    <option value="BELGIAN">BELGIAN</option>
+                                    <option value="BELIZEAN">BELIZEAN</option>
+                                    <option value="BENINESE">BENINESE</option>
+                                    <option value="BHUTANESE">BHUTANESE</option>
+                                    <option value="BOLIVIAN">BOLIVIAN</option>
+                                    <option value="BOSNIAN">BOSNIAN</option>
+                                    <option value="BRAZILIAN">BRAZILIAN</option>
+                                    <option value="BRITISH">BRITISH</option>
+                                    <option value="BRUNEIAN">BRUNEIAN</option>
+                                    <option value="BULGARIAN">BULGARIAN</option>
+                                    <option value="BURKINABE">BURKINABE</option>
+                                    <option value="BURMESE">BURMESE</option>
+                                    <option value="BURUNDIAN">BURUNDIAN</option>
+                                    <option value="CAMBODIAN">CAMBODIAN</option>
+                                    <option value="CAMEROONIAN">CAMEROONIAN</option>
+                                    <option value="CANADIAN">CANADIAN</option>
+                                    <option value="CAPE VERDEAN">CAPE VERDEAN</option>
+                                    <option value="CENTRAL AFRICAN">CENTRAL AFRICAN</option>
+                                    <option value="CHADIAN">CHADIAN</option>
+                                    <option value="CHILEAN">CHILEAN</option>
+                                    <option value="CHINESE">CHINESE</option>
+                                    <option value="COLOMBIAN">COLOMBIAN</option>
+                                    <option value="COMORAN">COMORAN</option>
+                                    <option value="CONGOLESE">CONGOLESE</option>
+                                    <option value="COSTA RICAN">COSTA RICAN</option>
+                                    <option value="CROATIAN">CROATIAN</option>
+                                    <option value="CUBAN">CUBAN</option>
+                                    <option value="CYPRIOT">CYPRIOT</option>
+                                    <option value="CZECH">CZECH</option>
+                                    <option value="DANISH">DANISH</option>
+                                    <option value="DJIBOUTI">DJIBOUTI</option>
+                                    <option value="DOMINICAN">DOMINICAN</option>
+                                    <option value="DUTCH">DUTCH</option>
+                                    <option value="EAST TIMORESE">EAST TIMORESE</option>
+                                    <option value="ECUADOREAN">ECUADOREAN</option>
+                                    <option value="EGYPTIAN">EGYPTIAN</option>
+                                    <option value="EMIRIAN">EMIRIAN</option>
+                                    <option value="EQUATORIAL GUINEAN">EQUATORIAL GUINEAN
+                                    </option>
+                                    <option value="ERITREAN">ERITREAN</option>
+                                    <option value="ESTONIAN">ESTONIAN</option>
+                                    <option value="ETHIOPIAN">ETHIOPIAN</option>
+                                    <option value="FIJIAN">FIJIAN</option>
+                                    <option value="FILIPINO">FILIPINO</option>
+                                    <option value="FINNISH">FINNISH</option>
+                                    <option value="FRENCH">FRENCH</option>
+                                    <option value="GABONESE">GABONESE</option>
+                                    <option value="GAMBIAN">GAMBIAN</option>
+                                    <option value="GEORGIAN">GEORGIAN</option>
+                                    <option value="GERMAN">GERMAN</option>
+                                    <option value="GHANAIAN">GHANAIAN</option>
+                                    <option value="GREEK">GREEK</option>
+                                    <option value="GRENADIAN">GRENADIAN</option>
+                                    <option value="GUATEMALAN">GUATEMALAN</option>
+                                    <option value="GUINEA-BISSAUAN">GUINEA-BISSAUAN</option>
+                                    <option value="GUINEAN">GUINEAN</option>
+                                    <option value="GUYANESE">GUYANESE</option>
+                                    <option value="HAITIAN">HAITIAN</option>
+                                    <option value="HERZEGOVINIAN">HERZEGOVINIAN</option>
+                                    <option value="HONDURAN">HONDURAN</option>
+                                    <option value="HUNGARIAN">HUNGARIAN</option>
+                                    <option value="ICELANDER">ICELANDER</option>
+                                    <option value="INDIAN">INDIAN</option>
+                                    <option value="INDONESIAN">INDONESIAN</option>
+                                    <option value="IRANIAN">IRANIAN</option>
+                                    <option value="IRAQI">IRAQI</option>
+                                    <option value="IRISH">IRISH</option>
+                                    <option value="ISRAESLI">ISRAELI</option>
+                                    <option value="ITALIAN">ITALIAN</option>
+                                    <option value="IVORIAN">IVORIAN</option>
+                                    <option value="JAMAICAN">JAMAICAN</option>
+                                    <option value="JAPANESE">JAPANESE</option>
+                                    <option value="JORDANIAN">JORDANIAN</option>
+                                    <option value="KAZAKHSTANI">KAZAKHSTANI</option>
+                                    <option value="KENYAN">KENYAN</option>
+                                    <option value="KITTIAN AND NEVISIAN">KITTIAN AND NEVISIAN
+                                    </option>
+                                    <option value="KUWAITI">KUWAITI</option>
+                                    <option value="KYRGYZ">KYRGYZ</option>
+                                    <option value="LAOTIAN">LAOTIAN</option>
+                                    <option value="LATVIAN">LATVIAN</option>
+                                    <option value="LEBANESE">LEBANESE</option>
+                                    <option value="LIBERIAN">LIBERIAN</option>
+                                    <option value="LIBYAN">LIBYAN</option>
+                                    <option value="LIECHTENSTEINER">LIECHTENSTEINER</option>
+                                    <option value="LITHUANIAN">LITHUANIAN</option>
+                                    <option value="LUXEMBOURGER">LUXEMBOURGER</option>
+                                    <option value="MACEDONIAN">MACEDONIAN</option>
+                                    <option value="MALAGASY">MALAGASY</option>
+                                    <option value="MALAWIAN">MALAWIAN</option>
+                                    <option value="MALAYSIAN">MALAYSIAN</option>
+                                    <option value="MALDIVAN">MALDIVAN</option>
+                                    <option value="MALIAN">MALIAN</option>
+                                    <option value="MALTESE">MALTESE</option>
+                                    <option value="MARSHALLESE">MARSHALLESE</option>
+                                    <option value="MAURITANIAN">MAURITANIAN</option>
+                                    <option value="MAURITIAN">MAURITIAN</option>
+                                    <option value="MEXICAN">MEXICAN</option>
+                                    <option value="MICRONESIAN">MICRONESIAN</option>
+                                    <option value="MOLDOVAN">MOLDOVAN</option>
+                                    <option value="MONACAN">MONACAN</option>
+                                    <option value="MONGOLIAN">MONGOLIAN</option>
+                                    <option value="MOROCCAN">MOROCCAN</option>
+                                    <option value="MOSOTHO">MOSOTHO</option>
+                                    <option value="MOTSWANA">MOTSWANA</option>
+                                    <option value="MOZAMBICAN">MOZAMBICAN</option>
+                                    <option value="NAMIBIAN">NAMIBIAN</option>
+                                    <option value="NAURUAN">NAURUAN</option>
+                                    <option value="NEPALESE">NEPALESE</option>
+                                    <option value="NEW ZEALANDER">NEW ZEALANDER</option>
+                                    <option value="NI-VANUATU">NI-VANUATU</option>
+                                    <option value="NICARAGUAN">NICARAGUAN</option>
+                                    <option value="NIGERIEN">NIGERIEN</option>
+                                    <option value="NORTH KOREAN">NORTH KOREAN</option>
+                                    <option value="NORTHERN IRISH">NORTHERN IRISH</option>
+                                    <option value="NORWEGIAN">NORWEGIAN</option>
+                                    <option value="OMANI">OMANI</option>
+                                    <option value="PAKISTANI">PAKISTANI</option>
+                                    <option value="PALAUAN">PALAUAN</option>
+                                    <option value="PANAMANIAN">PANAMANIAN</option>
+                                    <option value="PAPUA NEW GUINEAN">PAPUA NEW GUINEAN</option>
+                                    <option value="PARAGUAYAN">PARAGUAYAN</option>
+                                    <option value="PERUVIAN">PERUVIAN</option>
+                                    <option value="POLISH">POLISH</option>
+                                    <option value="PORTUGUESE">PORTUGUESE</option>
+                                    <option value="QATARI">QATARI</option>
+                                    <option value="ROMANIAN">ROMANIAN</option>
+                                    <option value="RUSSIAN">RUSSIAN</option>
+                                    <option value="RWANDAN">RWANDAN</option>
+                                    <option value="SAINT LUCIAN">SAINT LUCIAN</option>
+                                    <option value="SALVADORAN">SALVADORAN</option>
+                                    <option value="SAMOAN">SAMOAN</option>
+                                    <option value="SAN MARINESE">SAN MARINESE</option>
+                                    <option value="SAO TOMEAN">SAO TOMEAN</option>
+                                    <option value="SAUDI">SAUDI</option>
+                                    <option value="SCOTTISH">SCOTTISH</option>
+                                    <option value="SENEGALESE">SENEGALESE</option>
+                                    <option value="SERBIAN">SERBIAN</option>
+                                    <option value="SEYCHELLOIS">SEYCHELLOIS</option>
+                                    <option value="SIERRA LEONEAN">SIERRA LEONEAN</option>
+                                    <option value="SINGAPOREAN">SINGAPOREAN</option>
+                                    <option value="SLOVAKIAN">SLOVAKIAN</option>
+                                    <option value="SLOVENIAN">SLOVENIAN</option>
+                                    <option value="SOLOMON ISLANDER">SOLOMON ISLANDER</option>
+                                    <option value="SOMALI">SOMALI</option>
+                                    <option value="SOUTH AFRICAN">SOUTH AFRICAN</option>
+                                    <option value="SOUTH KOREAN">SOUTH KOREAN</option>
+                                    <option value="SPANISH">SPANISH</option>
+                                    <option value="SRI LANKAN">SRI LANKAN</option>
+                                    <option value="SUDANESE">SUDANESE</option>
+                                    <option value="SURINAMER">SURINAMER</option>
+                                    <option value="SWAZI">SWAZI</option>
+                                    <option value="SWEDISH">SWEDISH</option>
+                                    <option value="SWISS">SWISS</option>
+                                    <option value="SYRIAN">SYRIAN</option>
+                                    <option value="TAIWANESE">TAIWANESE</option>
+                                    <option value="TAJIK">TAJIK</option>
+                                    <option value="TANZANIAN">TANZANIAN</option>
+                                    <option value="THAI">THAI</option>
+                                    <option value="TOGOLESE">TOGOLESE</option>
+                                    <option value="TONGAN">TONGAN</option>
+                                    <option value="TRINIDADIAN OR TOBAGONIAN">TRINIDADIAN OR
+                                        TOBAGONIAN</option>
+                                    <option value="TUNISIAN">TUNISIAN</option>
+                                    <option value="TURKISH">TURKISH</option>
+                                    <option value="TUVALUAN">TUVALUAN</option>
+                                    <option value="UGANDAN">UGANDAN</option>
+                                    <option value="UKRAINIAN">UKRAINIAN</option>
+                                    <option value="URUGUAYAN">URUGUAYAN</option>
+                                    <option value="UZBEKISTANI">Uzbekistani</option>
+                                    <option value="VENEZUELAN">VENEZUELAN</option>
+                                    <option value="VIETNAMESE">VIETNAMESE</option>
+                                    <option value="WELSH">WELSH</option>
+                                    <option value="YEMENITE">YEMENITE</option>
+                                    <option value="ZAMBIAN">ZAMBIAN</option>
+                                    <option value="ZIMBABWEAN">ZIMBABWEAN</option>
+                                </select>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="country" class="form-label h6">Страна</label>
+                                <select class="form-control" name="country">
+                                    <option selected>Выберете страну рождения</option>
+                                    <option value="YEMENITE">YEMENITE</option>
+                                    <option value="ZAMBIAN">ZAMBIAN</option>
+                                    <option value="ZIMBABWEAN">ZIMBABWEAN</option>
+                                </select>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="country" class="form-label h6">Город</label>
+                                <select class="form-control" name="country">
+                                    <option selected>Выберете город рождения</option>
+                                    <option value="YEMENITE">YEMENITE</option>
+                                    <option value="ZAMBIAN">ZAMBIAN</option>
+                                    <option value="ZIMBABWEAN">ZIMBABWEAN</option>
+                                </select>
+                            </fieldset>
+
+
+                            <fieldset class="col-12">
+                                <legend class="form-label h6">Семейное положение</legend>
+                                <div class="col">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="statusRadios" id="statusRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="statusRadios1">
+                                       Не женат, не замужем
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="statusRadios" id="statusRadios2" value="option2">
+                                    <label class="form-check-label" for="statusRadios2">
+                                        Женат, замужем
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="statusRadios" id="statusRadios3" value="option3">
+                                    <label class="form-check-label" for="statusRadios3">
+                                        Вдовец, вдова
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="statusRadios" id="statusRadios4" value="option4">
+                                    <label class="form-check-label" for="statusRadios4">
+                                        Разведен, разведена
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="statusRadios" id="statusRadios5" value="option5">
+                                    <label class="form-check-label" for="statusRadios5">
+                                        Женаты, но не живем вместе
+                                    </label>
+                                  </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="formInput" class="form-label h6">Номер загранпаспорта</label>
+                                <input type="number" class="form-control" placeholder="555555555" aria-label="Номер" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите номер загранпаспорта без пробелов</div>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="formInput" class="form-label h6">Ваш номер телефона</label>
+                                <input type="tel" class="form-control" placeholder="+555555555" aria-label="Телефон" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите существующий номер телефона без пробелов</div>
+                            </fieldset>
+
+                            <fieldset class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="formInput" class="form-label h6">Ваша электронная почта</label>
+                                <input type="email" class="form-control" placeholder="ivan@ivanov.com" aria-label="Почта" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите вашу электронную почту</div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 align-items-left">
+                    <div class="col-12">
+                        <div class="about-content about-content--form">
+                            <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
+                                <h2 class="subtitle">ВНЖ в Испании</h2>
+                                <p class=""> Если у вас нет ВНЖ Испании, пропустите раздел.</p>
+                            </div>
+                        </div>
+    
+                        <fieldset class="row g-4">
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                            <legend class="form-label h6">Тип ВНЖ</legend>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="typeRadios1">
+                                        ВНЖ цифрового кочевника
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios2" value="option2">
+                                    <label class="form-check-label" for="typeRadios2">
+                                        ВНЖ по стартапу
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios3" value="option3">
+                                    <label class="form-check-label" for="typeRadios3">
+                                        Студенческий ВНЖ
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios4" value="option4">
+                                    <label class="form-check-label" for="typeRadios4">
+                                        Виза финансово независимых (Non lucrative)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios5" value="option5">
+                                    <label class="form-check-label" for="typeRadios5">
+                                        ВНЖ инвестора (Золотая виза)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios6" value="option6">
+                                    <label class="form-check-label" for="typeRadios6">
+                                        Рабочая виза
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios7" value="option7">
+                                    <label class="form-check-label" for="typeRadios7">
+                                        ВНЖ по воссоединению с семьей
+                                    </label>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <label for="formInput" class="form-label h6">NIE</label>
+                                <input type="number" class="form-control" placeholder="1212121212121212" aria-label="Номер" aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Введите Идентификационный номер иностранца</div>
+                            </div>
+                        <fieldset>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <a href="" class="btn btn-style-one" type="submit"><span>Получить консультацию</span> </a>
+                </div>
+            </div>
+        </div>
+    </form>
 
     <footer class="footer-wrapper">
         <div class="shape-one">
