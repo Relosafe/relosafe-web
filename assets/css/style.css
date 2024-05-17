@@ -2873,14 +2873,23 @@ hr {
 .about .about-content {
   margin-left: 110px;
 }
+.about .about-content--form {
+  margin-left: 0px;
+}
 @media only screen and (min-width: 1200px) and (max-width: 1549px) {
   .about .about-content {
     margin-left: 60px;
+  }
+  .about .about-content--form {
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about .about-content {
     margin-left: 60px;
+  }
+  .about .about-content--form {
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
