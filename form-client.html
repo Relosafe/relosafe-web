@@ -170,13 +170,13 @@
                             </div>
                         </div>
                         <div class="row g-6 my-3">
-                            <fieldset class="col-sm-12 col-md-6 col-lg-6 my-3">
+                            <fieldset class="col-sm-12 col-md-6 my-3">
                                 <label for="formInput" class="form-label h6">Имя</label>
                                 <input type="text" class="form-control" placeholder="Ivan" aria-label="Имя" aria-describedby="textHelp">
                                 <div id="textHelp" class="form-text">Введите имя на латинице как в паспорте</div>
                             </fieldset>
 
-                            <fieldset class="col-sm-12 col-md-6 col-lg-6 my-3">
+                            <fieldset class="col-sm-12 col-md-6 my-3">
                                 <label for="formInput" class="form-label h6">Фамилия</label>
                                 <input type="text" class="form-control" placeholder="Ivanov" aria-label="Фамилия" aria-describedby="textHelp">
                                 <div id="textHelp" class="form-text">Введите фамилию на латинице как в паспорте</div>
@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="row g-6 my-3 my-lg-5">
-                            <fieldset class="col-sm-12 col-md-6 col-lg-6 my-3">
+                            <fieldset class="col-sm-12 col-md-6 my-3">
                                 <legend class="form-label h6">Пол</legend>
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
@@ -200,7 +200,7 @@
                                 </div>
                             </fieldset>
 
-                            <fieldset class="col-sm-12 col-md-6 col-lg-6 my-3">
+                            <fieldset class="col-sm-12 col-md-6 my-3">
                                 <label for="formInput" class="form-label h6">Дата рождения</label>
                                 <input type="date" class="form-control" aria-label="Дата" aria-describedby="textHelp">
                                 <div id="textHelp" class="form-text">Введите вручную или выберете в календаре</div>
@@ -213,7 +213,8 @@
                                 <div class="select-wrapper">
                                     <div class="select-icon"><i class="flag flag-russia"></i></div>
                                     <select class="form-select" name="nationality">
-                                        <option value="RUSSIAN">RUSSIAN</option>
+                                        <option value="RUSSIAN">Русский</option>
+                                        <option value="RUSSIAN">Испанец</option>
                                     </select>
                                 </div>
                                 <div id="textHelp" class="form-text">Выберете вашу национальность</div>
@@ -228,8 +229,8 @@
                             <fieldset class="col-sm-12 col-md-4">
                                 <label for="country" class="form-label h6">Город</label>
                                 <select class="form-select" name="city">
-                                    <option></option>
-                                    <option></option>
+                                    <option>Москва</option>
+                                    <option>Питер</option>
                                 </select>
                                 <div id="textHelp" class="form-text">Выберете город рождения</div>
                             </fieldset>
@@ -305,7 +306,7 @@
                         </div>
 
                         <div class="row g-4 my-3">
-                            <fieldset class="col-sm-12 col-md-6">
+                            <fieldset class="col-sm-12 col-md-8">
                                 <legend class="form-label h6">Тип ВНЖ</legend>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="typeRadios" id="typeRadios1" value="option1" checked>
@@ -352,7 +353,7 @@
                                 </legend>
                             </fieldset>
     
-                            <fieldset class="col-sm-12 col-md-6">
+                            <fieldset class="col-sm-12 col-md-4">
                                 <label for="formInput" class="form-label h6">NIE</label>
                                 <input type="number" class="form-control" placeholder="1212121212121212" aria-label="Номер" aria-describedby="textHelp">
                                 <div id="textHelp" class="form-text">Введите Идентификационный номер иностранца</div>
@@ -389,21 +390,48 @@
                             <fieldset class="col-sm-12 col-md-6">
                                 <label for="region" class="form-label h6">Регион</label>
                                 <select class="form-control" name="region">
-                                    <option value="VENEZUELAN">VENEZUELAN</option>
-                                    <option value="VIETNAMESE">VIETNAMESE</option>
-                                    <option value="WELSH">WELSH</option>
-                                    <option value="YEMENITE">YEMENITE</option>
-                                    <option value="ZAMBIAN">ZAMBIAN</option>
-                                    <option value="ZIMBABWEAN">ZIMBABWEAN</option>
+                                    <option value="Andalusia">Регион проживания</option>
+                                    <option value="Andalusia">Андалусия</option>
+                                    <option value="Aragon">Арагон</option>
+                                    <option value="Asturia">Астурия</option>
+                                    <option value="Bolears Island">Балеарские острова</option>
+                                    <option value="Valensia">Валенсия</option>
+                                    <option value="Galisia">Галисия</option>
+                                    <option value="Canars">Канарские острова</option>
+                                    <option value="Kantabria">Кантабрия</option>
+                                    <option value="Kastilia-Mancha">Кастилия-Ла-Манча</option>
+                                    <option value="Kastilia-Leon">Кастилия-Леон</option>
+                                    <option value="Katalonia">Каталония</option>
+                                    <option value="Madrid">Мадрид</option>
+                                    <option value="Mursia">Мурсия</option>
+                                    <option value="Navara">Наварра</option>
+                                    <option value="Riocha">Риоха</option>
+                                    <option value="Basks">Страна Басков</option>
+                                    <option value="Estemadura">Эстремадура</option>
                                 </select>
                                 <div id="textHelp" class="form-text">Выберете регион проживания в Испании</div>
                             </fieldset>
                             <fieldset class="col-sm-12 col-md-6">
                                 <label for="city" class="form-label h6">Город</label>
                                 <select class="form-control" name="city">
-                                    <option value="Barselona">BARSELONA</option>
-                                    <option value="Madrid">MADRID</option>
-                                    <option value="Valensia">VALENSIA</option>
+                                    <option value="Civilia">Столица региона</option>
+                                    <option value="Civilia">Севилья</option>
+                                    <option value="Saragosa">Сарагоса</option>
+                                    <option value="Oviedo">Овьедо</option>
+                                    <option value="Palma">Пальма-де-Мальорка</option>
+                                    <option value="Valensia">Валенсия</option>
+                                    <option value="Santiago">Сантьяго-де-Компостела</option>
+                                    <option value="Las-Palmas">Лас-Пальмас-де-Гран-Канария</option>
+                                    <option value="Santander">Сантандер</option>
+                                    <option value="Toledo">Толедо</option>
+                                    <option value="Valiadolid">Вальядолид</option>
+                                    <option value="Barselona">Барселона</option>
+                                    <option value="Madrid">Мадрид</option>
+                                    <option value="Mursia">Мурсия</option>
+                                    <option value="Pamplona">Памплона</option>
+                                    <option value="Logronio">Логроньо</option>
+                                    <option value="Vitoria">Витория-Гастейс</option>
+                                    <option value="Merida">Мерида</option>
                                 </select>
                                 <div id="textHelp" class="form-text">Выберете город проживания в Испании</div>
                             </fieldset>
