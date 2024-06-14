@@ -252,13 +252,6 @@ hr {
   margin-top: 40px;
   max-width: 510px;
 }
-/* Независимый стиль для текстов блога */
-.text-three {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #54545f;
-}
 .carusel-img {
   width: auto;
   height: 450px;

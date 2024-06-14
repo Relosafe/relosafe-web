@@ -28,6 +28,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/rs-custom.css">
+    <link rel="stylesheet" href="./assets/css/style-extended.css">
 </head>
 
 <body>
@@ -213,10 +214,9 @@
                             <fieldset class="col-sm-12 col-md-4">
                                 <label for="nationality" class="form-label h6">Национальность</label>
                                 <div class="select-wrapper">
-                                    <div class="select-icon"><i class="flag flag-russia"></i></div>
                                     <select class="form-select" name="nationality">
                                         <option value="RUSSIAN">Русский</option>
-                                        <option value="RUSSIAN">Испанец</option>
+                                        <option value="SPAIN">Испанец</option>
                                     </select>
                                 </div>
                                 <div id="textHelp" class="form-text">Выберете вашу национальность</div>
@@ -224,16 +224,23 @@
 
                             <fieldset class="col-sm-12 col-md-4">
                                 <label for="country" class="form-label h6">Страна</label>
-                                <select class="form-select" data-flag="true" name="country"></select>
+                                <div class="select-wrapper">
+                                    <select class="form-select" name="nationality">
+                                        <option value="RUSSIA">Россия</option>
+                                        <option value="SPAIN">Испания</option>
+                                    </select>
+                                </div>
                                 <div id="textHelp" class="form-text">Выберете страну рождения</div>
                             </fieldset>
 
                             <fieldset class="col-sm-12 col-md-4">
                                 <label for="country" class="form-label h6">Город</label>
-                                <select class="form-select" name="city">
-                                    <option>Москва</option>
-                                    <option>Питер</option>
-                                </select>
+                                <div class="select-wrapper">
+                                    <select class="form-select" name="nationality">
+                                        <option value="MOSCOW">Москва</option>
+                                        <option value="VALENSIA">Валенсия</option>
+                                    </select>
+                                </div>
                                 <div id="textHelp" class="form-text">Выберете город рождения</div>
                             </fieldset>
                         </div>
@@ -303,7 +310,7 @@
                         <div class="about-content about-content--form my-3">
                             <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                                 <h2 class="subtitle">ВНЖ в Испании</h2>
-                                <p class=""> Если у вас нет ВНЖ Испании, пропустите раздел.</p>
+                                <p class="text-two mt-3"> Если у вас нет ВНЖ Испании, пропустите раздел.</p>
                             </div>
                         </div>
 
@@ -369,7 +376,7 @@
                         <div class="about-content about-content--form my-3">
                             <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                                 <h2 class="subtitle">Где жили последние 2 года</h2>
-                                <p class="">Перечислите страны, в которых проживали в течение последних двух лет более, чем полгода.</p>
+                                <p class="text-two mt-3">Перечислите страны, в которых проживали в течение последних двух лет более, чем полгода.</p>
                             </div>
                         </div>
                         <div class="row g-4">
@@ -385,56 +392,60 @@
                         <div class="about-content about-content--form my-3">
                             <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                                 <h2 class="subtitle">Данные о проживании</h2>
-                                <p class="">Укажите данные о гостинице, в которой остановитесь. Название гостиницы не нужно. Если уже находитесь в Испании - укажите адрес проживания.</p>
+                                <p class="text-two mt-3">Укажите данные о гостинице, в которой остановитесь. Если уже находитесь в Испании - укажите адрес проживания.</p>
                             </div>
                         </div>
                         <div class="row g-4 my-3">
                             <fieldset class="col-sm-12 col-md-6">
                                 <label for="region" class="form-label h6">Регион</label>
-                                <select class="form-control" name="region">
-                                    <option value="Andalusia">Регион проживания</option>
-                                    <option value="Andalusia">Андалусия</option>
-                                    <option value="Aragon">Арагон</option>
-                                    <option value="Asturia">Астурия</option>
-                                    <option value="Bolears Island">Балеарские острова</option>
-                                    <option value="Valensia">Валенсия</option>
-                                    <option value="Galisia">Галисия</option>
-                                    <option value="Canars">Канарские острова</option>
-                                    <option value="Kantabria">Кантабрия</option>
-                                    <option value="Kastilia-Mancha">Кастилия-Ла-Манча</option>
-                                    <option value="Kastilia-Leon">Кастилия-Леон</option>
-                                    <option value="Katalonia">Каталония</option>
-                                    <option value="Madrid">Мадрид</option>
-                                    <option value="Mursia">Мурсия</option>
-                                    <option value="Navara">Наварра</option>
-                                    <option value="Riocha">Риоха</option>
-                                    <option value="Basks">Страна Басков</option>
-                                    <option value="Estemadura">Эстремадура</option>
-                                </select>
+                                    <div class="select-wrapper">
+                                        <select class="form-select" name="region">
+                                            <option value="Andalusia">Регион проживания</option>
+                                            <option value="Andalusia">Андалусия</option>
+                                            <option value="Aragon">Арагон</option>
+                                            <option value="Asturia">Астурия</option>
+                                            <option value="Bolears Island">Балеарские острова</option>
+                                            <option value="Valensia">Валенсия</option>
+                                            <option value="Galisia">Галисия</option>
+                                            <option value="Canars">Канарские острова</option>
+                                            <option value="Kantabria">Кантабрия</option>
+                                            <option value="Kastilia-Mancha">Кастилия-Ла-Манча</option>
+                                            <option value="Kastilia-Leon">Кастилия-Леон</option>
+                                            <option value="Katalonia">Каталония</option>
+                                            <option value="Madrid">Мадрид</option>
+                                            <option value="Mursia">Мурсия</option>
+                                            <option value="Navara">Наварра</option>
+                                            <option value="Riocha">Риоха</option>
+                                            <option value="Basks">Страна Басков</option>
+                                            <option value="Estemadura">Эстремадура</option>
+                                        </select>
+                                    </div>
                                 <div id="textHelp" class="form-text">Выберете регион проживания в Испании</div>
                             </fieldset>
                             <fieldset class="col-sm-12 col-md-6">
                                 <label for="city" class="form-label h6">Город</label>
-                                <select class="form-control" name="city">
-                                    <option value="Civilia">Столица региона</option>
-                                    <option value="Civilia">Севилья</option>
-                                    <option value="Saragosa">Сарагоса</option>
-                                    <option value="Oviedo">Овьедо</option>
-                                    <option value="Palma">Пальма-де-Мальорка</option>
-                                    <option value="Valensia">Валенсия</option>
-                                    <option value="Santiago">Сантьяго-де-Компостела</option>
-                                    <option value="Las-Palmas">Лас-Пальмас-де-Гран-Канария</option>
-                                    <option value="Santander">Сантандер</option>
-                                    <option value="Toledo">Толедо</option>
-                                    <option value="Valiadolid">Вальядолид</option>
-                                    <option value="Barselona">Барселона</option>
-                                    <option value="Madrid">Мадрид</option>
-                                    <option value="Mursia">Мурсия</option>
-                                    <option value="Pamplona">Памплона</option>
-                                    <option value="Logronio">Логроньо</option>
-                                    <option value="Vitoria">Витория-Гастейс</option>
-                                    <option value="Merida">Мерида</option>
-                                </select>
+                                <div class="select-wrapper">
+                                    <select class="form-select" name="city">
+                                        <option value="Civilia">Столица региона</option>
+                                        <option value="Civilia">Севилья</option>
+                                        <option value="Saragosa">Сарагоса</option>
+                                        <option value="Oviedo">Овьедо</option>
+                                        <option value="Palma">Пальма-де-Мальорка</option>
+                                        <option value="Valensia">Валенсия</option>
+                                        <option value="Santiago">Сантьяго-де-Компостела</option>
+                                        <option value="Las-Palmas">Лас-Пальмас-де-Гран-Канария</option>
+                                        <option value="Santander">Сантандер</option>
+                                        <option value="Toledo">Толедо</option>
+                                        <option value="Valiadolid">Вальядолид</option>
+                                        <option value="Barselona">Барселона</option>
+                                        <option value="Madrid">Мадрид</option>
+                                        <option value="Mursia">Мурсия</option>
+                                        <option value="Pamplona">Памплона</option>
+                                        <option value="Logronio">Логроньо</option>
+                                        <option value="Vitoria">Витория-Гастейс</option>
+                                        <option value="Merida">Мерида</option>
+                                    </select>
+                                </div>
                                 <div id="textHelp" class="form-text">Выберете город проживания в Испании</div>
                             </fieldset>
                         </div>
@@ -464,7 +475,7 @@
                         <div class="about-content about-content--form my-3">
                             <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                                 <h2 class="subtitle">Данные о родителях</h2>
-                                <p class=""></p>
+                                <p class="text-two mt-3"></p>
                             </div>
                         </div>
                         <div class="row g-4 my-3">
@@ -487,7 +498,7 @@
                         <div class="about-content about-content--form my-3">
                             <div class="section-head wow fadeIn" data-wow-duration="1.5s" data-wow-delay=".1s">
                                 <h2 class="subtitle">Данные о работе</h2>
-                                <p class=""></p>
+                                <p class="text-two mt-3"></p>
                             </div>
                         </div>
                         <div class="row g-4 my-3">
