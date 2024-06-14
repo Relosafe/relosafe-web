@@ -13,6 +13,7 @@
 
     <!-- Vendor CSS (Bootstrap & Icon Font) -->
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet"/>
 
     <!-- Plugins CSS (All Plugins Files) -->
     <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
@@ -24,6 +25,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/rs-custom.css">
+    <link rel="stylesheet" href="./assets/css/style-extended.css">
 
 </head>
 
@@ -48,9 +50,39 @@
                                 <div class="d-none d-lg-flex header-right_menu">
                                     <nav class="main-menu">
                                         <ul>
-                                            <li><a href="" target="_blank">YouTube</a></li>
-                                            <li><a href="" target="_blank">Telegram канал</a></li>
+                                            <li><a href="form-client.html" target="_blank">Подбор программы</a></li>
                                             <li><a href="" target="_blank">Задать вопрос</a></li>
+                                            <li>
+                                                <a href="blog.html" target="">Блог</a>
+                                                <ul class="sub-menu">
+                                                    <li>                                                    
+                                                        <a href="./blog/1-one-story.html" target="_blank">Жизнь под испанским солнцем</a>
+                                                    </li>
+                                                    <li>                                                    
+                                                        <a href="./blog/2-what-is-spane.html" target="_blank">Какая она - Испания?</a>
+                                                    </li>
+                                                    <li>                                                    
+                                                        <a href="./blog/3-process.html" target="_blank">Процесс переезда</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Язык</a>
+                                                <ul class="dropdown-menu" aria-labelledby="Dropdown">
+                                                    <li>
+                                                        <a class="dropdown-item" href="#"><i class="flag flag-russia"></i>Русский</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#"><i class="flag flag-united-kingdom"></i>English</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#"><i class="flag flag-spain"></i>Español</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#"><i class="flag flag-israel"></i>עִברִית</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -102,9 +134,25 @@
             <!-- mobile menu navigation start -->
             <nav>
                 <ul class="mobile-menu">
-                    <li><a href="" target="_blank">YouTube</a></li>
-                    <li><a href="" target="_blank">Telegram канал</a></li>
+                    <li><a href="form-client.html" target="_blank">Подбор программы</a></li>
                     <li><a href="" target="_blank">Задать вопрос</a></li>
+                    <li><a href="blog.html" target="_blank">Блог</a></li>
+                    <li class="dropend"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Язык</a>
+                        <ul class="dropdown-menu" aria-labelledby="Dropdown">
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag flag-russia"></i>Русский</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag flag-united-kingdom"></i>English</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag flag-spain"></i>Español</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="flag flag-israel"></i>עִברִית</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li style="margin-top: 10px;">
                         <a href="" class="btn btn-style-one"> <span>Консультация</span> </a>
                     </li>
@@ -491,5 +539,4 @@
     <script src="./assets/js/pages/home.js"></script>
 
 </body>
-
 </html>
